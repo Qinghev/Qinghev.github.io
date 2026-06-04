@@ -140,6 +140,36 @@ section {
   border-left: 3px solid var(--line);
 }
 
+.publication-list {
+  display: grid;
+  gap: 22px;
+  margin: 0;
+  padding-left: 22px;
+}
+
+.publication {
+  padding-left: 8px;
+}
+
+.publication p {
+  margin: 0;
+}
+
+.pub-title {
+  font-weight: 720;
+  line-height: 1.45;
+}
+
+.pub-authors,
+.pub-venue {
+  color: var(--muted);
+}
+
+.pub-links {
+  margin-top: 4px !important;
+  font-weight: 650;
+}
+
 .repo-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

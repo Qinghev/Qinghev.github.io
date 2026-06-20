@@ -116,6 +116,25 @@ section p:last-child {
   margin-bottom: 0;
 }
 
+.area-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 820px;
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.area-list li {
+  padding: 4px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.55);
+  font-size: 0.94rem;
+}
+
 .publication-list {
   display: grid;
   gap: 22px;

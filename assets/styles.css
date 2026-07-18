@@ -146,9 +146,23 @@ section p:last-child {
   padding-left: 8px;
 }
 
+.featured-publication {
+  padding: 14px 16px 14px 18px;
+  border-left: 3px solid var(--accent);
+  background: rgba(31, 93, 107, 0.06);
+}
+
 .publication p {
   max-width: none;
   margin: 0;
+}
+
+.pub-label {
+  margin-bottom: 5px !important;
+  color: var(--accent-dark);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .pub-title {
